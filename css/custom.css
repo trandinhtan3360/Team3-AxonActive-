@@ -1,0 +1,21 @@
+h1 {
+	text-align: center;
+}
+.pill ul>li {
+  margin-right: 10px;
+}
+.pill {
+    margin: 25px 0 15px;
+}
+.record input {
+  padding: 5px;
+  border: 1px solid #e5e5e5;
+  width: 100%;
+}
+.record td>p {
+  line-height: 30px;
+  margin: 0;
+}
+.record tr.disable {
+  background: #ebebe4;
+}
