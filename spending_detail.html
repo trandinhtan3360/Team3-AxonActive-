@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <title>Document</title>
+  <style media="screen">
+    .pill ul>li {
+      margin-right: 10px;
+    }
+    .pill {
+        margin: 25px 0 15px;
+    }
+    .record input {
+      padding: 5px;
+      border: 1px solid #e5e5e5;
+      width: 100%;
+    }
+    .record td>p {
+      line-height: 30px;
+      margin: 0;
+    }
+    .record tr.disable {
+      background: #ebebe4;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-inverse navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">WebSiteName</a>
+        </div>
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home</a></li>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+  <section class="body">
+    <div class="container">
+      <h2 align="center">Management spending</h2>
+      <div class="pill">
+        <ul class="nav nav-pills" role="tablist">
+          <li role="presentation" class="active"><u>1/7/2017 - 10/7/2017</u></li>
+          <li role="presentation"><label>Số tiền đã tiêu:</label> 20.000 <sup>đ</sup></li>
+          <li role="presentation"><label>Số tiền thừa:</label> 100.000 <sup>đ</sup></li>
+        </ul>
+      </div>
+      <div class="record">
+        <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th></th>
+              <th>Row 1</th>
+              <th>Row 2</th>
+              <th>Row 3</th>
+              <th>Row 4</th>
+              <th>Row 5</th>
+              <th>Row 6</th>
+              <th>Row 7</th>
+              <th>Row 8</th>
+              <th>Row 9</th>
+              <th>Row 10</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="info">
+              <td>
+                <b>1/7</b>
+              </td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td><input type="text" name="name" value="0"></td>
+              <td>
+                <p>
+                  0
+                </p>
+              </td>
+            </tr>
+            <tr class="disable">
+              <td>
+                <b>2/7</b>
+              </td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td>
+                <p>
+                  0
+                </p>
+              </td>
+            </tr>
+            <tr class="disable">
+              <td>
+                <b>3/7</b>
+              </td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td><input type="text" name="name" value="0" disabled="true"></td>
+              <td>
+                <p>
+                  0
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <b>Total</b>
+              </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <div class="col-md-12">
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-3">
+
+      </div>
+      <div class="col-md-3">
+
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      
+    })
+  </script>
+</body>
+</html>
